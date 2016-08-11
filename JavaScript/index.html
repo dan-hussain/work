@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript"> // imports javascript. Everything between the script tags is javascript.
+<!--
+/*
+	This is a paragraph comment
+								*/
+
+	document.write("Hello world! <br>"); // This is a line comment. document.write() is a print statement/function, <br> inserts a line break.
+
+	// Below are examples of the different types of variables.
+	var character = "c"; 
+	var string = "Dan said, \"Boy do I love Harriet!\""; // '\' is called an escape character and allows for the raw string to be printed.
+	var integer = 4;
+	var float = 4.0;
+	var boolean = false;
+	var x = null;
+
+	function main() { //
+		document.write("Hello world!");
+	}
+
+	function add(x, y) {
+		return x+y;
+	}
+
+	var name = "Harriet";
+
+	switch(name){
+		case "Harriet":
+			document.write("Hello Harriet!");
+			break;
+		case "Dan":
+			document.write("Hello Dan!");
+			break;
+		default:
+			document.write("Hello world!");
+	}
+
+	for(i = 0; i < 4; i++) {
+		document.write("Hello world! <br>");
+	}
+
+	var x = 0;
+	while(x<4) {
+		document.write("Hello world!")
+		x++;
+	}
+//-->
+</script>
+</body>
+</html>
